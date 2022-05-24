@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.pantalla-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+.botones-inicio {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+
+}
+.botones-inicio button {
+    align-self: center;
+}
+.boton-inicio {
+    max-width: 100%;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: #0A3871;
+    color: white;
+    cursor: pointer;
+}
+.boton-palabra {
+    max-width: 100%;
+    padding: 15px 30px;
+    border-radius: 20px;
+    color: #0A3871;
+    border-color: #0A3871;
+    cursor: pointer;
+}
