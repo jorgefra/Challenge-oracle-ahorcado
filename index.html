@@ -20,18 +20,38 @@
         </div>    
         <div class="pantalla-palabra">
             <div class="entrada-area">
-                <textarea placeholder="Ingrese el texto" id="entrada" class="texto"></textarea>
+                <textarea maxlength="8" placeholder="Ingrese una palabra" id="entrada" class="texto"></textarea>
                 <div class="alerta">
                     <img src="./imagenes/alerta.png" alt="signo de alerta">
-                    <p class="texto-alerta">Solo letras minúsculas y sin acentos</p>
+                    <p class="texto-alerta">Máx. de 8 letras</p>
                 </div>
         
                 <div class="botones-palabra">
-                    <button class="boton-guardar">Guardar y empezar</button>
-                    <button class="boton-cancelar">Cancelar</button>
+                    <div>
+                        <button class="boton-guardar boton-azul">Guardar y empezar</button>
+                    </div>
+                    <div>
+                        <button class="boton-cancelar boton-blanco">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pantalla-juego">
+            <div class="juego">
+                <canvas width="300" height="300">Su navegador no soporta canvas</canvas>
+                <div class="letras">
+                </div>
+            </div>
+            <div class="botones-juego">
+                <div>
+                    <button class="boton-juego boton-azul">Nuevo juego</button>
+                </div>
+                <div>
+                    <button class="boton-desistir boton-blanco">Desistir</button>
                 </div>
             </div>
         </div>
     </main>
+    <script src="./js/app.js"></script>
 </body>
 </html>
