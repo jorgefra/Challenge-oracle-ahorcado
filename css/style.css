@@ -14,7 +14,6 @@ body {
     align-items: center;
     height: 90%;
     width: 100%;
-    display: none;
 }
 .botones-inicio {
     justify-content: center;
@@ -53,7 +52,7 @@ body {
     align-items: center;
     height: 90%;
     width: 100%;
-    display: none;
+   display: none;
 }
 .entrada-area {
     width: 50%;
@@ -113,6 +112,7 @@ body {
     height: 90%;
     width: 100%;
     flex-direction: column;
+    display: none;
 }
 .juego {
     background-color: #6693ca;
